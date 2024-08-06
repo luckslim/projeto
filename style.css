@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container-fluid .container {
+    margin-top: 200px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column; /* Organiza os filhos em coluna */
+}
+.posts{
+    margin-bottom: 50px;
+}
+.posts .card{
+    max-width: 600px;
+    display: flex;
+    align-items:start;
+}
+.posts .form-control{
+    margin: auto;
+    width: 95%;
+    margin-top: 10px;
+}
+.posts .row{
+    margin-top: 20px;
+    margin-left: 20px;    
+}
+.select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.select .box-button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+
+}
+.select .box-button .link{
+    margin: 0 115px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    color: #495057;
+    text-decoration: none;
+    
+}
+.timeline{
+    max-width: 600px;
+    display: flex;
+    align-items: end;
+
+}
+.timeline .card{
+    display: flex;
+}
+.timeline .card img{
+    width:50px;
+    margin-top: 30px;
+}
+.card .div-img img{
+    width: 400px;
+}
+
+.container .btn-primary{
+  width: 300px;
+  margin-bottom: 30px;
+}
+.input-group .form-control {
+    border-color: #e2e2e2;
+    color: #495057;
+    background-color: #ffffff;
+}
+.input-group .input-group-text {
+    background-color: rgb(255, 255, 255);
+    color: #495057;
+    width: 100px;
+  
+}
+.input-group .form-control:focus {
+    background-color: #f1f3f5; /* Cor de fundo ao clicar */
+    border-color: #ff0800; /* Cor da borda ao clicar */
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25); /* Sombras ao clicar */
+}
+.container .btn-light {
+    margin-bottom: 30px;
+}
